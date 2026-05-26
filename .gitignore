@@ -1,0 +1,30 @@
+# Data files & local data pipelines
+datasets/
+*.csv
+*.xlsx
+*.json
+
+# Machine Learning Model Exports / Weights
+export/
+*.pth
+*.pt
+*.joblib
+*.pkl
+
+# Python environment and cache blocks
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+env/
+venv/
+.env
+
+# Jupyter Notebook checkpoints and state variables
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# macOS system files (specific to your MacBook Air!)
+.DS_Store
+.AppleDouble
+.LSOverride
